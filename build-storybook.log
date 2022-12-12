@@ -1,0 +1,149 @@
+info @storybook/react v6.5.14
+info 
+info => Cleaning outputDir: /var/folders/47/21tpb4m93r92xhn0myxwc9dh0000gn/T/chromatic--8474-lXYATyuz0T1J
+info => Loading presets
+WARN   Failed to load preset: {"type":"presets"} on level 1
+ERR! TypeError [ERR_INVALID_ARG_TYPE]: The "id" argument must be of type string. Received an instance of Object
+ERR!     at new NodeError (node:internal/errors:393:5)
+ERR!     at validateString (node:internal/validators:163:11)
+ERR!     at Module.require (node:internal/modules/cjs/loader:1054:3)
+ERR!     at require (node:internal/modules/cjs/helpers:103:18)
+ERR!     at interopRequireDefault (/Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/core-common/dist/cjs/presets.js:178:16)
+ERR!     at getContent (/Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/core-common/dist/cjs/presets.js:194:10)
+ERR!     at loadPreset (/Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/core-common/dist/cjs/presets.js:203:20)
+ERR!     at /Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/core-common/dist/cjs/presets.js:256:18
+ERR!     at Array.reduce (<anonymous>)
+ERR!     at loadPresets (/Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/core-common/dist/cjs/presets.js:255:18)
+ERR!  TypeError [ERR_INVALID_ARG_TYPE]: The "id" argument must be of type string. Received an instance of Object
+ERR!     at new NodeError (node:internal/errors:393:5)
+ERR!     at validateString (node:internal/validators:163:11)
+ERR!     at Module.require (node:internal/modules/cjs/loader:1054:3)
+ERR!     at require (node:internal/modules/cjs/helpers:103:18)
+ERR!     at interopRequireDefault (/Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/core-common/dist/cjs/presets.js:178:16)
+ERR!     at getContent (/Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/core-common/dist/cjs/presets.js:194:10)
+ERR!     at loadPreset (/Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/core-common/dist/cjs/presets.js:203:20)
+ERR!     at /Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/core-common/dist/cjs/presets.js:256:18
+ERR!     at Array.reduce (<anonymous>)
+ERR!     at loadPresets (/Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/core-common/dist/cjs/presets.js:255:18) {
+ERR!   code: 'ERR_INVALID_ARG_TYPE'
+ERR! }
+WARN   Failed to load preset: {"options":{"cssLoaderOptions":{"modules":true,"localIdentName":"[local]__[hash:base64:5]"}},"type":"presets"} on level 1
+ERR! TypeError [ERR_INVALID_ARG_TYPE]: The "id" argument must be of type string. Received an instance of Object
+ERR!     at new NodeError (node:internal/errors:393:5)
+ERR!     at validateString (node:internal/validators:163:11)
+ERR!     at Module.require (node:internal/modules/cjs/loader:1054:3)
+ERR!     at require (node:internal/modules/cjs/helpers:103:18)
+ERR!     at interopRequireDefault (/Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/core-common/dist/cjs/presets.js:178:16)
+ERR!     at getContent (/Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/core-common/dist/cjs/presets.js:194:10)
+ERR!     at loadPreset (/Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/core-common/dist/cjs/presets.js:203:20)
+ERR!     at /Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/core-common/dist/cjs/presets.js:256:18
+ERR!     at Array.reduce (<anonymous>)
+ERR!     at loadPresets (/Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/core-common/dist/cjs/presets.js:255:18)
+ERR!  TypeError [ERR_INVALID_ARG_TYPE]: The "id" argument must be of type string. Received an instance of Object
+ERR!     at new NodeError (node:internal/errors:393:5)
+ERR!     at validateString (node:internal/validators:163:11)
+ERR!     at Module.require (node:internal/modules/cjs/loader:1054:3)
+ERR!     at require (node:internal/modules/cjs/helpers:103:18)
+ERR!     at interopRequireDefault (/Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/core-common/dist/cjs/presets.js:178:16)
+ERR!     at getContent (/Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/core-common/dist/cjs/presets.js:194:10)
+ERR!     at loadPreset (/Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/core-common/dist/cjs/presets.js:203:20)
+ERR!     at /Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/core-common/dist/cjs/presets.js:256:18
+ERR!     at Array.reduce (<anonymous>)
+ERR!     at loadPresets (/Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/core-common/dist/cjs/presets.js:255:18) {
+ERR!   code: 'ERR_INVALID_ARG_TYPE'
+ERR! }
+WARN   Failed to load preset: {"type":"presets"} on level 1
+ERR! TypeError [ERR_INVALID_ARG_TYPE]: The "id" argument must be of type string. Received an instance of Object
+ERR!     at new NodeError (node:internal/errors:393:5)
+ERR!     at validateString (node:internal/validators:163:11)
+ERR!     at Module.require (node:internal/modules/cjs/loader:1054:3)
+ERR!     at require (node:internal/modules/cjs/helpers:103:18)
+ERR!     at interopRequireDefault (/Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/core-common/dist/cjs/presets.js:178:16)
+ERR!     at getContent (/Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/core-common/dist/cjs/presets.js:194:10)
+ERR!     at loadPreset (/Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/core-common/dist/cjs/presets.js:203:20)
+ERR!     at /Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/core-common/dist/cjs/presets.js:256:18
+ERR!     at Array.reduce (<anonymous>)
+ERR!     at loadPresets (/Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/core-common/dist/cjs/presets.js:255:18)
+ERR!  TypeError [ERR_INVALID_ARG_TYPE]: The "id" argument must be of type string. Received an instance of Object
+ERR!     at new NodeError (node:internal/errors:393:5)
+ERR!     at validateString (node:internal/validators:163:11)
+ERR!     at Module.require (node:internal/modules/cjs/loader:1054:3)
+ERR!     at require (node:internal/modules/cjs/helpers:103:18)
+ERR!     at interopRequireDefault (/Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/core-common/dist/cjs/presets.js:178:16)
+ERR!     at getContent (/Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/core-common/dist/cjs/presets.js:194:10)
+ERR!     at loadPreset (/Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/core-common/dist/cjs/presets.js:203:20)
+ERR!     at /Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/core-common/dist/cjs/presets.js:256:18
+ERR!     at Array.reduce (<anonymous>)
+ERR!     at loadPresets (/Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/core-common/dist/cjs/presets.js:255:18) {
+ERR!   code: 'ERR_INVALID_ARG_TYPE'
+ERR! }
+WARN   Failed to load preset: {"type":"presets"} on level 1
+ERR! TypeError [ERR_INVALID_ARG_TYPE]: The "id" argument must be of type string. Received an instance of Object
+ERR!     at new NodeError (node:internal/errors:393:5)
+ERR!     at validateString (node:internal/validators:163:11)
+ERR!     at Module.require (node:internal/modules/cjs/loader:1054:3)
+ERR!     at require (node:internal/modules/cjs/helpers:103:18)
+ERR!     at interopRequireDefault (/Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/core-common/dist/cjs/presets.js:178:16)
+ERR!     at getContent (/Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/core-common/dist/cjs/presets.js:194:10)
+ERR!     at loadPreset (/Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/core-common/dist/cjs/presets.js:203:20)
+ERR!     at /Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/core-common/dist/cjs/presets.js:256:18
+ERR!     at Array.reduce (<anonymous>)
+ERR!     at loadPresets (/Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/core-common/dist/cjs/presets.js:255:18)
+ERR!  TypeError [ERR_INVALID_ARG_TYPE]: The "id" argument must be of type string. Received an instance of Object
+ERR!     at new NodeError (node:internal/errors:393:5)
+ERR!     at validateString (node:internal/validators:163:11)
+ERR!     at Module.require (node:internal/modules/cjs/loader:1054:3)
+ERR!     at require (node:internal/modules/cjs/helpers:103:18)
+ERR!     at interopRequireDefault (/Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/core-common/dist/cjs/presets.js:178:16)
+ERR!     at getContent (/Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/core-common/dist/cjs/presets.js:194:10)
+ERR!     at loadPreset (/Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/core-common/dist/cjs/presets.js:203:20)
+ERR!     at /Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/core-common/dist/cjs/presets.js:256:18
+ERR!     at Array.reduce (<anonymous>)
+ERR!     at loadPresets (/Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/core-common/dist/cjs/presets.js:255:18) {
+ERR!   code: 'ERR_INVALID_ARG_TYPE'
+ERR! }
+info => Compiling manager..
+info => Compiling preview..
+info Addon-docs: using MDX1
+info => Using implicit CSS loaders
+(node:8488) DeprecationWarning: Default PostCSS plugins are deprecated. When switching to '@storybook/addon-postcss',
+you will need to add your own plugins, such as 'postcss-flexbugs-fixes' and 'autoprefixer'.
+
+See https://github.com/storybookjs/storybook/blob/next/MIGRATION.md#deprecated-default-postcss-plugins for details.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+info => Using default Webpack4 setup
+<s> [webpack.Progress] 0% compiling
+<s> [webpack.Progress] 10% building 0/0 modules 0 active 
+<s> [webpack.Progress] 10% building 0/1 modules 1 active multi /Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/core-client/dist/esm/globals/polyfills.js /Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/core-client/dist/esm/globals/globals.js /Volumes/Work/projects/marvelousdesigner-design-system/storybook-init-framework-entry.js /Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/react/dist/esm/client/docs/config-generated-config-entry.js /Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/react/dist/esm/client/preview/config-generated-config-entry.js /Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/addon-links/preview.js-generated-config-entry.js /Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/addon-docs/preview.js-generated-config-entry.js /Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/addon-actions/preview.js-generated-config-entry.js /Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/addon-backgrounds/preview.js-generated-config-entry.js /Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/addon-measure/preview.js-generated-config-entry.js /Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/addon-outline/preview.js-generated-config-entry.js /Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/addon-interactions/preview.js-generated-config-entry.js /Volumes/Work/projects/marvelousdesigner-design-system/.storybook/preview.js-generated-config-entry.js /Volumes/Work/projects/marvelousdesigner-design-system/generated-stories-entry.js
+<s> [webpack.Progress] 10% building 1/1 modules 0 active 
+<s> [webpack.Progress] 10% building 1/2 modules 1 active /Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/addon-backgrounds/preview.js-generated-config-entry.js
+<s> [webpack.Progress] 10% building 1/3 modules 2 active /Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/addon-actions/preview.js-generated-config-entry.js
+<s> [webpack.Progress] 10% building 1/4 modules 3 active /Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/addon-measure/preview.js-generated-config-entry.js
+<s> [webpack.Progress] 10% building 1/5 modules 4 active /Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/addon-interactions/preview.js-generated-config-entry.js
+<s> [webpack.Progress] 10% building 1/6 modules 5 active /Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/addon-outline/preview.js-generated-config-entry.js
+<s> [webpack.Progress] 10% building 1/7 modules 6 active /Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/addon-docs/preview.js-generated-config-entry.js
+<s> [webpack.Progress] 10% building 1/8 modules 7 active /Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/addon-links/preview.js-generated-config-entry.js
+node:internal/crypto/hash:71
+  this[kHandle] = new _Hash(algorithm, xofLen);
+                  ^
+
+Error: error:0308010C:digital envelope routines::unsupported
+    at new Hash (node:internal/crypto/hash:71:19)
+    at Object.createHash (node:crypto:133:10)
+    at module.exports (/Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/builder-webpack4/node_modules/webpack/lib/util/createHash.js:135:53)
+    at NormalModule._initBuildHash (/Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/builder-webpack4/node_modules/webpack/lib/NormalModule.js:417:16)
+    at handleParseError (/Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/builder-webpack4/node_modules/webpack/lib/NormalModule.js:471:10)
+    at /Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/builder-webpack4/node_modules/webpack/lib/NormalModule.js:503:5
+    at /Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/builder-webpack4/node_modules/webpack/lib/NormalModule.js:358:12
+    at /Volumes/Work/projects/marvelousdesigner-design-system/node_modules/loader-runner/lib/LoaderRunner.js:373:3
+    at iterateNormalLoaders (/Volumes/Work/projects/marvelousdesigner-design-system/node_modules/loader-runner/lib/LoaderRunner.js:214:10)
+    at /Volumes/Work/projects/marvelousdesigner-design-system/node_modules/loader-runner/lib/LoaderRunner.js:205:4
+    at /Volumes/Work/projects/marvelousdesigner-design-system/node_modules/@storybook/builder-webpack4/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:85:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+  opensslErrorStack: [ 'error:03000086:digital envelope routines::initialization error' ],
+  library: 'digital envelope routines',
+  reason: 'unsupported',
+  code: 'ERR_OSSL_EVP_UNSUPPORTED'
+}
+
+Node.js v18.12.1
