@@ -12,7 +12,7 @@
     "chromatic": "chromatic"
   },
   "dependencies": {
-    "@svgr/webpack": "^6.5.1",
+    "@svgr/webpack": "^5.5.0",
     "@types/react-dom": "18.0.9",
     "@types/styled-components": "^5.1.26",
     "dotenv-webpack": "^8.0.1",
