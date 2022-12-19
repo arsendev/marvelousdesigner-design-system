@@ -13,8 +13,6 @@ const LoaderSpin = styled.div`
     #aaacaf 360deg
   );
   position: absolute;
-  top: 10px;
-  left: 65px;
   animation: load3 1.4s infinite linear;
   transform: translateZ(0);
 
