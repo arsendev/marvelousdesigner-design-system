@@ -1,6 +1,6 @@
 // .storybook/preview.js
 import { GlobalStyle } from "../styles/GlobalStyles";
-import { DesignSystemProvider } from "../hooks/useDesignSystem";
+import { DesignSystemProvider } from "../src/hooks/useDesignSystem";
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
