@@ -1,4 +1,6 @@
 const path = require("path");
+const TsconfigPathsPlugin = require("tsconfig-paths-webpack-plugin");
+
 module.exports = {
   stories: [
     "../stories/**/*.stories.mdx",
@@ -30,12 +32,12 @@ module.exports = {
       (rule) => rule.test && rule.test.test(".svg"),
     );
     fileLoaderRule.exclude = /\.svg$/;
-
     config.module.rules.push({
       test: /\.svg$/,
       enforce: "pre",
       loader: require.resolve("@svgr/webpack"),
     });
+    config.resolve.plugins.push(new TsconfigPathsPlugin({}));
 
     return config;
   },
