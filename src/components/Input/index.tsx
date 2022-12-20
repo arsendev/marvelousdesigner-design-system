@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import styled, { css } from "styled-components";
+import LoaderSpin from "@components/Base/Spinner";
 import Show from "../../assets/icon/show.svg";
 import NotShow from "../../assets/icon/not_show.svg";
-import LoaderSpin from "../Spinner/Spinner";
 
 type SupportInputType = "password" | "text";
 type InputStatusType = "initial" | "loading" | "success" | "fail";
@@ -29,7 +29,7 @@ const isTypeOfPassword =
   (typeOf?: SupportInputType) =>
     typeOf === "password" ? trueValue : falseValue;
 
-function Input({
+function Index({
   children,
   viewType = "default",
   label,
@@ -142,4 +142,4 @@ const S = {
   `,
 };
 export type { InputProps, InputStatusType };
-export { Input };
+export default Index;

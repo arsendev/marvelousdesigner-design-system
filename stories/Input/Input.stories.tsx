@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 
-import { Input, InputStatusType } from "./Input";
-import AssistiveText from "./AssistiveText";
+import Index, { InputStatusType } from "@components/Input";
+import AssistiveText from "@components/Input/info/AssistiveText";
 
 export default {
   title: "Example/Input",
-  component: Input,
+  component: Index,
   argTypes: {
     label: {
       control: { type: "text" },
@@ -22,9 +22,9 @@ export default {
       },
     },
   },
-} as ComponentMeta<typeof Input>;
+} as ComponentMeta<typeof Index>;
 
-const Template: ComponentStory<typeof Input> = (args) => <Input {...args} />;
+const Template: ComponentStory<typeof Index> = (args) => <Index {...args} />;
 
 export const Default = Template.bind({});
 
@@ -39,12 +39,12 @@ WithIconAndText.args = {
   viewType: "withIconAndText",
 };
 
-const TemplateWithAssistiveText: ComponentStory<typeof Input> = (args) => {
+const TemplateWithAssistiveText: ComponentStory<typeof Index> = (args) => {
   const { status } = args;
   return (
-    <Input {...args}>
+    <Index {...args}>
       <AssistiveText text="We will email you a confirmation." status={status} />
-    </Input>
+    </Index>
   );
 };
 export const WithAssistiveText = TemplateWithAssistiveText.bind({});
@@ -65,10 +65,13 @@ WithLabel.args = {
   placeholder: "Password",
 };
 
-const TemplateWithValidation: ComponentStory<typeof Input> = (args) => {
-  const { status, ...others } = args;
-  const [inputStatus, setInputStatus] = useState<InputStatusType>(status);
+const TemplateWithValidation: ComponentStory<typeof Index> = ({
+  status,
+  ...others
+}) => {
+  //#region 실제 홈페이지 코드에서 Password CustomHooks로 변경될 예정
 
+  const [inputStatus, setInputStatus] = useState<InputStatusType>();
   const [lengthValidation, setLengthValidation] =
     useState<InputStatusType>("initial");
   const [unicodeValidation, setUnicodeValidation] =
@@ -119,20 +122,27 @@ const TemplateWithValidation: ComponentStory<typeof Input> = (args) => {
       setInputStatus("fail");
     });
   };
+  //#endregion
 
   return (
-    <Input {...others} validationFunc={loadingStatus} status={inputStatus}>
+    <Index
+      {...others}
+      validationFunc={loadingStatus}
+      status={inputStatus || status}
+    >
       <AssistiveText text="password length" status={lengthValidation} />
       <AssistiveText text="is unicode" status={unicodeValidation} />
-    </Input>
+    </Index>
   );
 };
 
-export const Password = TemplateWithValidation.bind({});
-Password.args = {
+export const UsageExamplePassword = TemplateWithValidation.bind({});
+UsageExamplePassword.args = {
+  status: "initial",
   label: "Password",
-  viewType: "withIconAndText",
+  viewType: "combination",
   type: "password",
   placeholder: "Password",
   required: true,
+  maxLength: 50,
 };

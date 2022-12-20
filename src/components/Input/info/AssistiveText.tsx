@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 
-import Info from "../../assets/icon/info.svg";
-import LoaderSpin from "../Spinner/Spinner";
-import Success from "../../assets/icon/ok.svg";
-import Fail from "../../assets/icon/cancel.svg";
-import { InputStatusType } from "./Input";
+import LoaderSpin from "@components/Base/Spinner";
+import Info from "@assets/icon/info.svg";
+import Success from "@assets/icon/ok.svg";
+import Fail from "@assets/icon/cancel.svg";
+import { InputStatusType } from "../index";
 
 interface AssistiveTextProps {
   text: string;
